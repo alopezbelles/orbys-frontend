@@ -1,0 +1,24 @@
+.buttonDesign {
+  background-color: #444b51;
+  color: #f5ebd8;
+
+  width: 20vw;
+  height: 7vh;
+  border-radius: 50px;
+  border: none;
+}
+
+.buttonDesign:hover {
+  background-color: #f5ebd8;
+  color: #444b51;
+  cursor: pointer;
+  zoom: 1.2;
+  transition: 0.5s;
+  border: solid #444b51 1px;
+}
+
+@media screen and (max-width: 450px) {
+  .buttonDesign {
+    width: 30vw;
+  }
+}
