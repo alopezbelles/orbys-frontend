@@ -6,7 +6,7 @@ import BookTitles from "../../Components/BookTitles/BookList";
 const Books = () => {
   return (
     <div>
-      <h1>Books</h1>
+      <h1 className="principalh1">These are our available books:</h1>
       <BookTitles />
     </div>
   );
