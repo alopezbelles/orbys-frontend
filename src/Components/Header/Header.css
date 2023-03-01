@@ -1,8 +1,16 @@
 
+/* Goofle fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
 .toolbarDesign{
     background-color: #F5BB89;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 .logoNavbar{
     color: black;
+        font-family: 'Oswald', sans-serif;
+
 }

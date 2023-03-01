@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { useNavigate } from "react-router-dom";
 
 import logo from "../../assets/logo.png";
 import vector1 from "../../assets/vector1.png";
@@ -9,8 +10,13 @@ import vector4 from "../../assets/vector4.png";
 import Button from "../../../src/Components/Button/Button";
 import { Container, Box } from "@material-ui/core";
 
+
 const Home = () => {
+
+  const navigate = useNavigate();
+
   return (
+
     <Box width="100%" className="boxHome">
       {/* <h1>Home</h1> */}
 
@@ -32,9 +38,9 @@ const Home = () => {
           <img className="vectorDesign" src={vector4} alt="vector"></img>
         </div>
       </div>
-      <div className="buttonContainer">
+      <div onClick={()=>navigate("/books")} className="buttonContainer">
         <h2 className="tittleStyle">¿Whant to see our books?</h2>
-        <Button text="Click me!"></Button>
+        <Button  text="Click me!" ></Button>
       </div>
     </Box>
   );
