@@ -3,12 +3,13 @@
 
 .booksTitlesList {
   font-family: "Oswald", sans-serif;
-  color: #444b51;
+  color: #a8894f;
 }
 
 .booksTitlesList:hover {
   cursor: pointer;
+  color: #444b51;
 
-  scale: 1.1;
+  
   transition: 0.5s;
 }

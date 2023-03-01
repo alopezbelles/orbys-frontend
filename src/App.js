@@ -6,8 +6,6 @@ import Home from './Containers/Home/Home';
 import Books from './Containers/Books/Books';
 import BookDetail from './Containers/BookDetail/BookDetail';
 
-
-
 function App() {
   return (
     <div className="App">
@@ -18,8 +16,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/books" element={<Books/>} />
         <Route path="/bookdetail" element={<BookDetail/>} />
-                
-      </Routes>
+      
+      </Routes>      
     </BrowserRouter>
       
     </div>

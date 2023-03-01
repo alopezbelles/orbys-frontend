@@ -8,18 +8,13 @@ import vector2 from "../../assets/vector2.png";
 import vector3 from "../../assets/vector3.png";
 import vector4 from "../../assets/vector4.png";
 import Button from "../../../src/Components/Button/Button";
-import { Container, Box } from "@material-ui/core";
-
+import { Box } from "@material-ui/core";
 
 const Home = () => {
-
   const navigate = useNavigate();
 
   return (
-
     <Box width="100%" className="boxHome">
-      {/* <h1>Home</h1> */}
-
       <img className="logoDesign" src={logo} alt="logo"></img>
 
       <div className="description">
@@ -38,9 +33,9 @@ const Home = () => {
           <img className="vectorDesign" src={vector4} alt="vector"></img>
         </div>
       </div>
-      <div onClick={()=>navigate("/books")} className="buttonContainer">
+      <div onClick={() => navigate("/books")} className="buttonContainer">
         <h2 className="tittleStyle">¿Whant to see our books?</h2>
-        <Button  text="Click me!" ></Button>
+        <Button text="See our books!"></Button>
       </div>
     </Box>
   );
