@@ -1,16 +1,12 @@
 /* Goofle fonts: */
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
-
-
-
-.info{
-    font-family: 'Oswald', sans-serif;
-    color: #444B51;
-
+.info {
+  font-family: "Oswald", sans-serif;
+  color: #444b51;
 }
 
-.coverDesign{
-    width: 30vw;
-    margin-top: 20px;
+.coverDesign {
+  width: 30vw;
+  margin-top: 20px;
 }

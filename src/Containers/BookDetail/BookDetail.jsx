@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./BookDetail.css";
 import { useNavigate } from "react-router-dom";
