@@ -9,7 +9,7 @@ const BookDetail = ({ book }) => {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div className="bookDetailDesign">
       {/* TODO: Hacer que el componente se renderice en función de la posición del array del archivo JSON.  */}
       <BookInfo book={booksData[1]} />
       <div onClick={() => navigate("/books")}>

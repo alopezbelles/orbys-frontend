@@ -5,6 +5,7 @@ import Cover from "../../assets/cover.jpg";
 function BookInfo({ book }) {
   return (
     <div className="info">
+    <div className="info">
       <h2>{book.title}</h2>
       <img className="coverDesign" src={Cover} alt="cover"></img>
       <h3>{book.subtitle}</h3>
@@ -13,6 +14,7 @@ function BookInfo({ book }) {
       <p>{book.pages}</p>
       <p>{book.category}</p>
       {/* <p>Website: {book.website}</p> */}
+    </div>
     </div>
   );
 }
