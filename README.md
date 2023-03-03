@@ -31,11 +31,6 @@ La aplicación permite la navegación entre las distintas pantallas que la compo
 
 ![home1](https://user-images.githubusercontent.com/113507322/222691062-0efbbad0-3aed-47aa-ad6d-aae2b4cc230a.png)
 
-**-->ADAPTACIÓN A DISPOSITIVOS**
-![mockup_lr](https://user-images.githubusercontent.com/113507322/222693050-088cec3d-dd6a-4a9f-946f-954b3cec7dd4.png)
-
-
-
 ![home2](https://user-images.githubusercontent.com/113507322/222691042-007f4689-d9b2-47c3-bedb-53ab6ffddd95.png)
 
 **-->BOOKS** 
@@ -53,6 +48,9 @@ En este apartado he accedido a uno de los libros del archivo JSON y he pintado s
 Una vez conectado con la base de datos esta página permitiría el ingreso de un nuevo libro en ella. Está compuesta por un formulario con varios imputs que recogen la información dividida en campos. 
 ![image](https://user-images.githubusercontent.com/113507322/222692429-1d4cee12-e922-4c01-9084-394c5942c66d.png)
 ![image](https://user-images.githubusercontent.com/113507322/222692557-90228327-5a17-4443-8636-de3d0218819c.png)
+
+**-->ADAPTACIÓN A DISPOSITIVOS**
+![mockup_lr](https://user-images.githubusercontent.com/113507322/222693050-088cec3d-dd6a-4a9f-946f-954b3cec7dd4.png)
 
 **RECURSOS ALTERNATIVOS**
 
