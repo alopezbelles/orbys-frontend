@@ -8,7 +8,7 @@ import vector2 from "../../assets/vector2.png";
 import vector3 from "../../assets/vector3.png";
 import vector4 from "../../assets/vector4.png";
 import Button from "../../../src/Components/Button/Button";
-import { Box } from "@material-ui/core";
+import { Box } from "@mui/material";
 
 const Home = () => {
   const navigate = useNavigate();

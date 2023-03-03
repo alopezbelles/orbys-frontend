@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import { useNavigate } from "react-router-dom";
 
-import { AppBar, Toolbar, Button } from "@material-ui/core";
+import { AppBar, Toolbar, Button } from "@mui/material";
 import logoNavbar from "../../assets/logo.navbar.png";
 
 const Header = () => {
