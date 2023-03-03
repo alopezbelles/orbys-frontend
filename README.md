@@ -9,6 +9,9 @@ Frontend con React
 
 **- Fecha:** 03/03/2023
 
+ ### Tecnologías  y dependencias
+ REACT + MATERIAL UI 
+
  ### Acceso a la aplicación
  
  Deploy en Amazon Web Services:
