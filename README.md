@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# PRUEBA TÉNCICA ORBYS - FRONTEND
+Frontend con React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Datos generales
 
-## Available Scripts
+**- Autor del proyecto:** Alejandro López Bellés
 
-In the project directory, you can run:
+**- Título del proyecto:** PRUEBA TÉCNICA ORBYS - FRONTEND
 
-### `npm start`
+**- Fecha:** 03/03/2023
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ### Acceso a la aplicación
+ 
+ Deploy en Amazon Web Services:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> [https://main.d1p6yww2pwar77.amplifyapp.com/](https://main.d1p6yww2pwar77.amplifyapp.com/)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ ### Descripción general del proyecto 
 
-### `npm run build`
+La aplicación está diseñada y desarrollada en React y permite el uso de componentes reutilizables. El siguiente Frontend se divide en tres páginas. 
+La página principal es la 'HOME'. En ella encontramos una breve descripción de la librería y el acceso a los libros documentados en ella. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Luego tenemos la página 'BOOKS', donde se muestra un listado con todos los libros alojados en la aplicación. Al pinchar sobre uno de ellos accedemos a la página 'BOOK DETAIL', donde encontraremos la información detallada, género, autor, etc. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Por último el apartado 'ADD-BOOK' permitiría el registro de un nuevo libro en la base de datos. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+La aplicación permite la navegación entre las distintas pantallas que la componen y su diseño está adaptado a la resolución a distintos dispositivos. Está estructurada de la siguiente manera:
 
-### `npm run eject`
+**-->HOME** 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![home1](https://user-images.githubusercontent.com/113507322/222691062-0efbbad0-3aed-47aa-ad6d-aae2b4cc230a.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**-->ADAPTACIÓN A DISPOSITIVOS**
+![mockup_lr](https://user-images.githubusercontent.com/113507322/222693050-088cec3d-dd6a-4a9f-946f-954b3cec7dd4.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+![home2](https://user-images.githubusercontent.com/113507322/222691042-007f4689-d9b2-47c3-bedb-53ab6ffddd95.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**-->BOOKS** 
+En este apartado me he traido el listado de libros accediendo a los títulos del archivo JSON ubicado en la carpeta /assets. Creo un componente que utiliza estos datos mediante "require()" y asigno su contenido a la constante "data". Luego con la función "map()" recorro cada objeto y creo un componente para cada objeto. 
+![books](https://user-images.githubusercontent.com/113507322/222691566-b6938ca1-d358-47fc-9c3b-22156190c655.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**-->BOOKS-DETAIL** 
+En este apartado he accedido a uno de los libros del archivo JSON y he pintado su información. He maquetado la información de uno de los libros y se muestra en todos por igual. 
 
-### Code Splitting
+![image](https://user-images.githubusercontent.com/113507322/222692106-57ba4200-5678-4e57-8ac3-5b704207a040.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://user-images.githubusercontent.com/113507322/222692204-59df21e4-ca78-4fef-874f-7a311c9ae337.png)
 
-### Analyzing the Bundle Size
+**-->ADD-BOOK** 
+Una vez conectado con la base de datos esta página permitiría el ingreso de un nuevo libro en ella. Está compuesta por un formulario con varios imputs que recogen la información dividida en campos. 
+![image](https://user-images.githubusercontent.com/113507322/222692429-1d4cee12-e922-4c01-9084-394c5942c66d.png)
+![image](https://user-images.githubusercontent.com/113507322/222692557-90228327-5a17-4443-8636-de3d0218819c.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**RECURSOS ALTERNATIVOS**
 
-### Making a Progressive Web App
+Diseño y edición de vectores y logo:
+  - ADOBE ILLUSTRATOR. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**FUENTES**
 
-### Advanced Configuration
+- Vectores, autores:  www.pixabay.com / www.pexels.com
+- Fuentes: google Fonts. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
